@@ -108,6 +108,7 @@ function fetchInterstitial() {
 }
 
 function goToInterstitial() {
+  alert("Please make sure you merged the latest code and ran unit tests locally. Remember - With Great Power Comes Great Responsibility");
   if (interstitial_url) {
     window.location.href = interstitial_url
   }
